@@ -1,0 +1,92 @@
+body{
+    background-color:  rgb(202, 225, 255);
+}
+h1 {
+    color: rgb(30, 144, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    color: rgb(39, 64, 139);
+}
+a{
+    color: blue;
+    font-weight:bold;
+}
+
+a:visited {
+    color:pink;
+}
+a:focus {
+    color:violet;
+}
+
+html{ 
+    font-family: Didot, serif;
+    background-color: rgb(30, 144, 255);
+}
+
+.paciência {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.one{
+    display: container;
+    flex-direction: row;
+    align-content: stretch;
+    background: linear-gradient(to bottom, rgba(144, 129, 240, 0.979), rgba(95, 201, 236, 0.692));
+    margin: 2cm;
+    width: 200px;
+    height: 340px;
+    padding: 20px;
+    border: 150px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    list-style-type:none;
+}
+
+.two{
+    background: linear-gradient(to bottom, rgba(144, 129, 240, 0.979), rgba(95, 201, 236, 0.692));
+    margin: 2cm;
+    width: 200px;
+    height: 340px;
+    padding: 20px;
+    border: 200px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+.three{
+    background: linear-gradient(to bottom, rgba(144, 129, 240, 0.979), rgba(95, 201, 236, 0.692));
+    margin: 2cm;
+    width: 200px;
+    height: 270px;
+    padding: 20px;
+    border: 100px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type:none
+}
+
+.botão{
+    background-color: rgb(171, 130, 255);
+    border-radius: 10px;
+}
+
+.quase{
+    color: rgba(147, 112, 219);
+    background-color: rgb(171, 130, 255);
+    border-radius: 10px;
+}
+
+li{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
